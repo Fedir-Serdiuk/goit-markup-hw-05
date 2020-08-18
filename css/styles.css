@@ -217,16 +217,18 @@ body {
   letter-spacing: 0.03em;
 }
 
-.mail {
+/* .mail {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-}
+} */
 
 .contacts {
-  display: block;
+  display: flex;
+  align-items: center;
+
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -453,7 +455,8 @@ body {
   fill: currentColor;
 }
 
-.partner-link:hover {
+.partner-link:hover,
+.partner-link:focus {
   color: var(--acent-text-color);
   border-color: var(--acent-text-color);
 }
